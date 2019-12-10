@@ -139,66 +139,37 @@
     width: 60px;
     height: 20px;
 }
-.ex-12-button:hover .ex-12-bottom-white{
-  animation-name:movebuttonup12;
+.ex-12-button:hover .ex-12-top-white{
+  animation-name: move_12_up;
   animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
-@keyframes movebuttonup12 {
+@keyframes move_12_up {
   0%{
     left: 10%;
   }
   50%{
     left: calc(100% - 60px);
   }
-  100%{
-    left: 10%;
+  100% {
+    left:10%;
   }
 }
-.ex-12-button:hover .ex-12-bottom-white {
-  animation-name:movebuttondown12;
-  animation-duration: 3s;
-}
-@keyframes movebuttondown12 {
-  0%{
-    right: 20%;
-  }
-  50%{
-    right: calc(100% - 60px);
-  }
-  100%{
-    right: 20%;
-  }
-}
-.ex-13-button:hover .ex-13-bottom-white{
-  animation-name: move13;
+.ex-12-button:hover .ex-12-bottom-white{
+  animation-name: move_12_bottom;
   animation-duration: 3s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
-
-@keyframes move13 {
+@keyframes move_12_bottom {
   0% {
-        bottom: -10px;
-        right: 20%;
-    }
-    30% {
-        right: calc(100% - 30px);
-        bottom: -10px;
-    }
-    45% {
-        right: calc(100% - 30px);
-        bottom: 100%;
-    }
-    75% {
-        right: 0;
-        bottom: 100%;
-    }
-    90% {
-        right: -15px;
-        bottom: -10px;
-    }
-    100% {
-        bottom: -10px;
-        right: 20%;
-    }
+    right: 20%;
+  }
+  50% {
+    right: calc(100% - 60px);
+  }
+  100% {
+    right: 20%;
+  }
 }
