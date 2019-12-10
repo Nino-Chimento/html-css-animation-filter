@@ -173,6 +173,7 @@
   animation-name: move13;
   animation-duration: 3s;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 @keyframes move13 {
