@@ -91,6 +91,23 @@
 
 .ex-11-icon {
     font-size: 60px;
+
+}
+.ex-11-icon:hover{
+  animation-name: rotation_speed;
+  animation-iteration-count: infinite;
+
+}
+@keyframes rotation_speed {
+  0% {
+    transform: rotate(0turn);
+  }
+  80% {
+    transform: rotate(245deg);
+  }
+  100 {
+    transform: rotate(0turn);
+  }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
