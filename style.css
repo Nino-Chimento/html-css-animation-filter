@@ -173,3 +173,51 @@
     right: 20%;
   }
 }
+.ex-13-button:hover .ex-13-top-white{
+  animation-name:  move_13_top;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes move_13_top {
+  0%{
+    left: 10%;
+  }
+  25% {
+    left: calc(100% - 60px);
+  }
+  50% {
+    left:10%;
+  }
+  75% {
+    left: 0;
+  }
+  100% {
+    left 10;
+  }
+}
+
+@keyframes move_13_bottom {
+  0%{
+    right: 20 %;
+  }
+  25% {
+    right: calc(100% - 60px);
+  }
+  50% {
+    right: 20%;
+  }
+  75% {
+    right: 0;
+  }
+  100% {
+    right: 20;
+  }
+}
+.ex-13-button:hover .ex-13-bottom-white{
+  animation-name:  move_13_bottom;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
