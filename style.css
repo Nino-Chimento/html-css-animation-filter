@@ -139,7 +139,7 @@
     width: 60px;
     height: 20px;
 }
-.ex-12-button:hover .ex-12-top-white{
+.ex-12-button:hover .ex-12-bottom-white{
   animation-name:movebuttonup12;
   animation-duration: 3s;
 }
@@ -154,7 +154,7 @@
     left: 10%;
   }
 }
-.ex-12-button:hover .ex-12-top-white {
+.ex-12-button:hover .ex-12-bottom-white {
   animation-name:movebuttondown12;
   animation-duration: 3s;
 }
