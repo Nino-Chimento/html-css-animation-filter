@@ -78,7 +78,17 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation-name: rotation;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
 }
+@keyframes rotation {
+  0% {
+    transform:rotate(1turn);
+  }
+}
+
+
 .ex-11-icon {
     font-size: 60px;
 }
